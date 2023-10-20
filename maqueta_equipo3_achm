@@ -1,0 +1,244 @@
+Realicé la página de "¿Quiénes somos?" tanto la parte de index.html, style.css y la responsiva que puse en un grid.htlm
+
+Además, intenté unir los estilos de las demás compañeras para que la página fuera totalmente  responsiva, no se logró con éxito. Aquí dejaré mis códigos:
+
+--> INDEX.HTML
+<section>
+        <header>
+          <h1 class="centrado" id="somos quién">¿Quiénes somos?</h1>
+      </header>
+      <div class="container4">
+          <div class="card4">
+              <div>
+                  <img class="imgw" src="./SRC/img/Misión.png" alt="" width="300px" height="250px">
+              </div>
+              <div class="info4">
+                  <h1>Misión</h1>
+                  <p>Ayudar a mujeres vulnerables que hayan sufrido violencia a desarrollarse y encontrar mejores oportunidades.</p>
+              </div>
+             
+          </div>
+          <div class="card4">
+              <div>
+                  <img class="imgw" src="./SRC/img/Visión.png" alt="" width="300px" height="250px">
+              </div>
+              <div class="info4">
+                  <h1>Visión</h1>
+                  <p>Encontrar nuevas oportunidades que les permitirá mejorar su calidad de vida y
+                      favorecerá su integración social.</p>
+              </div>
+          </div>
+      </div>
+      </section>
+    <br>
+      <hr>
+      <br>
+
+--> STYLE.CSS
+header{
+   font-size: x-large;
+   padding-left: 50px;
+}
+
+
+body{
+   background-size: cover;
+   
+}
+
+.container4{
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+    align-items: center;
+ }
+
+.card4{
+   width: 50%;
+   height: 400px;
+   padding: 40px;
+   border-radius: 10px;
+   align-items: center;
+}
+
+.info4{
+    padding-top: 20px;
+    padding-left: 15%;
+    padding-right: 15%;
+    word-spacing: 1px;
+    letter-spacing: 1px;
+}
+.info4 h1{
+    text-align: center;
+}
+
+.info4 p{
+    text-align: justify;
+}
+
+.imgw {
+   border-radius: 20px;
+   box-shadow: 10px 10px rgb(222, 172, 182);
+   background-color: white;
+   
+}
+
+--> GRID.HTML
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="CSS/styles2.css">
+    <title>Responsive</title>
+    <style>
+        * {
+            box-sizing: border-box;
+            padding: 0;
+            margin: 0;
+        }
+
+        body {
+            min-height: 100%;
+        }
+
+        html {
+            height: 100%;
+        }
+
+        .grid-container> *{
+            text-align: center;
+            border-radius: 15px;
+            padding: 10px;
+        }
+
+        .header {
+            grid-area: header;
+            background-color: hotpink;
+        }
+
+        .Navbar {
+            grid-area: navbar;
+            background-color: chartreuse;
+        }
+
+        .sidebar {
+            grid-area: sidebar;
+            background-color: cyan;
+        }
+
+        .main {
+            grid-area: main;
+            background-color: #5b5f8e;
+        }
+
+        .footer {
+            grid-area: footer;
+            background-color: greenyellow;
+        }
+
+        .grid-container {
+            display: grid;
+            gap: 10px;
+            grid-template-areas:
+                "header"
+                "navbar"
+                "main"
+                "sidebar"
+                "footer"
+            ;
+        }
+
+        .container2 {
+            margin-top: 10%;
+        }
+
+        /*Teléfono*/
+        .grid-container {
+            display: grid;
+            gap: 10px;
+            grid-template-areas:
+                "header"
+                "navbar"
+                "main"
+                "sidebar"
+                "footer";
+        }
+
+        /*Para tablet*/
+        @media(min-width:768px) {
+            .grid-container {
+                grid-template-columns: 200px auto;
+                grid-template-rows: 100px 50px auto 100px;
+                grid-template-areas:
+                    "header header"
+                    "navbar navbar"
+                    "sidebar main"
+                    "footer footer";
+            }
+        }
+
+        /*PARA ESCRITORIO*/
+        @media(min-width:900px) {
+            .grid-container {
+                grid-template-columns: 200px auto;
+                grid-template-rows: 100px 50px auto 100px;
+                grid-template-areas:
+                    "header header header"
+                    "navbar navbar navbar"
+                    "sidebar sidebar main"
+                    "footer footer footer "
+                ;
+            }
+        }
+    </style>
+</head>
+
+<body class="grid-container">
+    <header class="header">
+        <h1>Encabezado</h1>
+    </header>
+
+    <nav class="Navbar">Navbar</nav>
+
+    <aside class="sidebar">Sidebar
+
+    </aside>
+
+    <article class="main">
+        <header>
+            <h1 class="centrado" id="somos quién">¿Quiénes somos?</h1>
+        </header>
+        <div class="container4">
+            <div class="card4">
+                <div>
+                    <img class="imgw" src="./SRC/img/Misión.png" alt="" width="250px" height="200px">
+                </div>
+                <div class="info4">
+                    <h1>Misión</h1>
+                    <p>Ayudar a mujeres vulnerables que hayan sufrido violencia a desarrollarse y encontrar mejores oportunidades.</p>
+                </div>
+               
+            </div>
+            <div class="card4">
+                <div>
+                    <img class="imgw" src="./SRC/img/Visión.png" alt="" width="250px" height="200px">
+                </div>
+                <div class="info4">
+                    <h1>Visión</h1>
+                    <p>Encontrar nuevas oportunidades que les permitirá mejorar su calidad de vida y
+                        favorecerá su integración social.</p>
+                </div>
+            </div>
+        </div>
+
+    </article>
+
+    <footer class="footer">
+        <h1>Pie de página</h1>
+    </footer>
+
+</body>
+
+</html>
