@@ -1,0 +1,465 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1"/>
+    <link rel="shortcut icon" href="SRC/img/descarga.png" type="image/x-icon">
+    <link rel="stylesheet"  href="./CSS/Styles.css">
+    
+    <title>Document</title>
+    <style>
+
+.container{
+    width: 1920px;
+}
+  @media (max-width:1450px){
+
+  }
+  @media (max-width:1280px){
+    
+}
+@media (max-width:900px){
+    
+}
+@media (max-width:800px){
+    
+}
+
+</style>
+
+</head>
+<body class="grid-container">
+    <header class="header"> <div class="logo ">
+        <img src="https://static.vecteezy.com/system/resources/thumbnails/009/874/694/small/mandala-for-design-hand-drawn-free-png.png" width="200px">
+      </div>
+      <div class="Danesh">
+        <h1>CENTRO COMUNITARIO DANESH </h1> 
+      </div></header>
+    <nav class="navbar"> 
+        <a href="" class="ln" >Inicio</a>
+       <a href="#somosquien"   class="ln"> ¿Quienes somos?</a>
+       <a href="#reso"class="ln"> Recursos</a>
+     </nav>
+    <aside class="sidebar">
+        <div class="cards">
+            <div class="card1">
+             
+             <img src="https://img.freepik.com/vector-gratis/fondo-plano-dia-amistad-grupo-amigos_23-2149481321.jpg?size=626&ext=jpg&ga=GA1.1.1016474677.1697068800&semt=ais" width="550px" height="300px">
+            
+            <img src="https://www.unotv.com/uploads/2023/03/por-que-no-se-debe-felicitar-a-las-mujeres-el-8m-081756.jpg" width="550px">
+           </div>
+            <div class="card2">
+              <p>Se trabaja con un equipo multidisciplinario de profesionales desde mayo de 2013 y continúa a la fecha. 
+           
+               A través del análisis de la historia del Dispositivo y de la construcción de un diagnóstico territorial, se presentó la necesidad de que exista un Dispositivo en el barrio que se posicione desde el enfoque de la perspectiva de género.
+               
+               Se implementa una estrategia de Intervención Comunitaria que tiene como objetivo abordar el sufrimiento social, en particular de aquellas mujeres que se encuentran asociadas a situaciones de violencia, embarazo adolescente, consumo de sustancias psicoactivas, o que presentan dificultades en la accesibilidad a la educación y/o salud. La intervención se orienta a la promoción del fortalecimiento individual y grupal de las mujeres.
+               
+               El espacio promueve la integración social de las mujeres, el fortalecimiento de sus redes subjetivas, así como sus habilidades psicosociales, mejorando de esta manera su calidad de vida y la de la comunidad. Se desarrollan actividades de promoción de la salud, de prevención y de reducción de riesgos y daños. </p>
+            </div>
+           </div>
+    </aside>
+    <article class="main">
+
+        <!---------------------------------Ana cristina-------------------------------------------------->
+        <h1 class="centrado" id="somosquien">Quiénes somos</h1>
+
+
+<div class="container4" >
+  <div class="card4">
+      <div>
+          <img class="imgw4" src="./SRC/IMG/AnaCris1.jpeg" alt="" width="300px" height="250px">
+      
+      <div class="info4">
+          <h1 class="centrado">Misión</h1>
+          <p>Ayudar a mujeres vulnerables que hayan sufrido violencia a desarrollarse y encontrar mejores oportunidades.</p>
+      </div>
+    </div>
+     
+  </div>
+  <div class="card4">
+      <div>
+          <img class="imgw4" src="./SRC/IMG/AnaCris2.jpeg" alt="" width="300px" height="250px">
+      </div>
+      <div class="info4">
+          <h1>Visión</h1>
+          <p>Encontrar nuevas oportunidades que les permitirá mejorar su calidad de vida y
+              favorecerá su integración social.</p>
+      </div>
+  </div>
+</div>
+<!---------------------------------ANA CAMPOS.-------------------------------------------------->
+  
+        <h1 class="h5">¿Qué hacemos?</h1>
+  
+
+    <div class="container5">
+        <div class="card5">
+            <img src="./SRC/IMG/Proceso terapeutico-AnaCampos.gif" class="imgW5" alt="Proceso terapeutico" height="300px"
+                width="300px">
+            <p class="p5">Te acompañamos en tu proceso terapéutico.</p>
+        </div>
+        <div class="card5">
+            <img src="./SRC/IMG/crecimiento-personal-AnaCampos.jpg" class="imgW5" alt="Crecimiento" height="300px" width="300px">
+            <p class="p5">Proporcionamos recursos para tu desarrollo personal.</p>
+        </div>
+        <div class="card5">
+            <img src="./SRC/IMG/amistad-AnaCampos.jpg" class="imgW5" alt="lazos amistad" height="300px"
+                width="300px">
+            <p class="p5">Establecemos lazos de complicidad.</p>
+        </div>
+    </div>
+
+<!---------------------------------ARTICLE---------------AQUI EMPIEZA EL CODIGO DE BRENDA.-------------------------------------------------->
+<div class="fondoazul">
+    <div class ="container7">
+    <div class="container6">
+      <div>
+        <h1>BUSCA TU TERAPEUTA</h1>
+  
+          <p class="texto">
+                ¿Te sientes mal, abatida, desilusionada? <br>
+                ¿Estás pasando un periodo de crisis o conflicto <br>
+                y crees que necesitas la ayuda de una psicóloga?</p>
+              </div>
+        <div>
+          <button><a href="./contacto.html">PIDE UNA CITA</a></button>
+        </div>
+      </div>
+      <div class="imgw6">
+         <img src="./SRC/IMG/Horario de atencion.jpg" alt="" width="500px" height="450px">
+    </div>
+    </div>
+  </div>
+      </article>
+      <footer class="footer">
+  
+
+
+    </article>
+    <footer class="footer">
+        <h1>Recursos con certificación</h1>
+<div class="container8" id="reso">
+  <div class="container-cards8">
+    <div class="card8">
+      <img src="./SRC/IMG/ale2.jpeg" alt="Imagen 1">
+    </div>
+    <div class="card8-info">
+      <h2>Diseño web</h2>
+      <p>Diseña tus paginas web </p>
+    </div>
+  </div>
+  <div class="container-cards8">
+    <div class="card8">
+      <img src="./SRC/IMG/ale8.jpeg" alt="Imagen 2">
+    </div>
+    <div class="card8-info">
+      <h2>Alta Peluqueria</h2>
+      <p>Cursos de corte y alta peluqueria</p>
+    </div>
+  </div>
+  <div class="container-cards8">
+    <div class="card8">
+      <img src= "./SRC/IMG/ale4.jpeg" alt="Imagen 3">
+    </div>
+    <div class="card8-info">
+      <h2>Medicina alternativa</h2>
+      <p>Aprende botanica y medicina y medicina alternativa a lado de nuestros expertos .</p>
+    </div>
+  </div>
+  <div class="container-cards8">
+    <div class="card8">
+      <img src="./SRC/IMG/ale1.jpeg" alt="Imagen 1">
+    </div>
+    <div class="card8-info">
+      <h2>Corte y diseño textil</h2>
+      <p>Diseño y costura en corte y confeccion de prendas textiles .</p>
+    </div>
+  </div>
+  <div class="container-cards8">
+    <div class="card8">
+      <img src="./SRC/IMG/ale7.jpeg" alt="Imagen 1">
+    </div>
+    <div class="card8info">
+      <h2>Reposteria</h2>
+      <p>Preparacion de reposteria gourmet.</p>
+    </div>
+  </div>
+
+    <div class="container-cards8">
+        <div class="card8">
+            <img src="./SRC/IMG/ale3.jpeg"  alt="Imagen 1">
+        </div>
+OBOBOB        <div class="card5-info">
+            <h2>Enfermeria</h2>
+            <p>Cuidado y venoclisis.</p>
+OBOBOB        </div>  
+OBOBOB    </div>
+    
+    <div class="container-cards8">
+OBOBOB        <div class="card8">
+            <img src="./SRC/IMG/ale5.jpeg" alt="Imagen 1">
+        </div>
+        <div class="card5-info">
+            <h2>Introducion al emprendimiento</h2>
+            <p>Desenvuelvete en un entorno preferente con tus propios recursos.</p>
+        </div>  
+    </div>
+    
+    <div class="container-cards8"><div class="card8">
+            <img src="./SRC/IMG/ale6.jpeg" alt="Imagen 1">
+          </div>
+        <div class="card8-info">
+            <h2>Crianza y cuidado</h2>
+            <p>Te damos una induccion de como orientar a tus pequeñines .</p>
+          </div>
+      </div>
+    </div>
+    <div class="footer5">
+        "Lo que haces hace una diferencia y tienes que decidir qué tipo de diferencia quieres hacer." Jane Goodall
+    </div>
+    </footer>
+</body>
+</html>
+
+
+CSS
+body{
+    background-image: url(https://images.unsplash.com/photo-1591625677777-ae053aef58ff?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8bnViZXMlMjBtb3JhZGFzfGVufDB8fDB8fHww&w=1000&q=80);
+    background-size: cover;
+    background-color: rgb(230, 72, 219);
+    margin: right;
+    min-height: 100%;
+}
+
+.card1 {
+  margin: 10px;
+  border:50% white;
+  width:100%;
+  height: 650px;
+  padding: 20px;
+  border-radius: 10px;
+  gap:50px;
+}
+
+h1 {
+  text-align: center;
+  font-family: "Lucida Handwriting";
+}
+
+.card2 p{
+  text-align: justify;
+ width:750px;
+ height: 450px;
+font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+font-size:x-large;
+align-items:right;
+
+}
+.cards {
+  display : flex;
+  flex-direction:row;
+  justify-content:space-between;
+ margin:20px;
+justify-content: space-around;
+gap:140px;
+flex-grow: 1;
+flex-shrink: 1;
+
+
+}
+.card2{
+  width: 900px;
+  height: 700px;
+  padding: 20px;
+  background-color: rgba(246, 244, 245, 0.423);
+  border-radius: 10px;
+}
+
+/* -----------------------------------------------------------------------------------CODIGO DE ANA CRIS*------------------------------------------------------------------------------/
+
+
+.container4/*AGRUPACION DE LAS TARJETAS*/
+.container4{
+  display: flex;
+  flex-direction: row;
+  gap: 5px;
+  justify-content: center;
+  margin: 150px;
+
+}
+
+.card4{
+ width:80%;
+ height: 400px;
+ padding: 40px;
+ border-radius: 10px;
+ align-items: center;
+ margin: 150px;
+ flex: 1;
+}
+
+.info4{
+  padding-top: 20px;
+  padding-left: 15%;
+  padding-right: 15%;
+  word-spacing: 0px;
+  letter-spacing: 0px;
+}
+.info4 h1{
+  text-align: center;
+  font-family: "Lucida Handwriting"
+}
+
+.info4 p{
+  text-align: justify;
+  font-size: x-large;
+}
+
+.imgw4 {
+ border-radius: 20px;
+ box-shadow: 10px 15px rgb(222, 172, 182);
+ height:300px;
+ width:100%;
+align-items:center;
+
+}
+
+/*------------------------------------------------------------------------------------------------------ TERMINA CSS DE ANA CRIS-------------------------------------------------------*/
+
+
+/*--------------------------------------------------------------------------------------------codigo ana campos-------------------------------------------------------------------------*/
+/*CSS-cards*/
+.container5 {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    align-items: center;
+    padding: 20px;
+    margin: 20px;
+}
+
+.card5 {
+    width: 50%;
+    height: 500px;
+    padding: 50px;
+    margin: 150px;
+    align-items: center;
+    background-color: rgb(236, 218, 230);
+    flex: 1;
+}
+
+.p5 {
+    text-align: center;
+    margin-top: 60px;
+    font-size:xx-large;
+    padding-left: 65px;
+    padding-right: 65px;
+    letter-spacing: -1px;
+}
+
+.imgW5 {
+    border-radius: 50px;
+    box-shadow: 10px 10px rgb(222, 172, 182);
+    width: 100%;
+    align-items: center;
+
+}
+
+.h5 {
+    font-family: "Lucida Handwriting";
+    text-align: center;
+}
+
+/*-------------------------------------------------------------------brenda---------------------------------------------------------------------------------------------------*/
+.fondoazul {
+    background-color: rgb(100, 101, 144);
+    background-size: cover;
+    height: 900px;
+  }
+  div{
+    align-items: center;
+  }
+  .imgw6{
+    border-radius: 20px;
+    box-shadow: 10px 10px rgb(100, 101, 144);
+    margin-right: 30%;
+    margin-top: 10%;
+  }
+  .texto{
+    background-color: #d4ebfb;
+    padding: 50px;
+    text-align: center;
+    width: 45%;
+    margin-top: 20%;
+    margin-left: 5%;
+    border-radius: 20px 20px 20px 20px;
+    font-size: xx-large;
+  }
+  button{
+    background-color: #d6dff2;
+    color:#040404;
+    font-size: 14px;
+    border-radius: none;
+    padding: 10px;
+    border-radius: 10px;
+    margin-left: 20%;
+    margin-top: auto;
+    text-align: center;
+    box-shadow: 0px 8px 8px 0px rgba(0,0,0, .27);
+  }
+  .container6{
+    align-content: center;
+    width: 80%;
+  }
+  .container7{
+    display: flex;
+    flex-direction: row;
+    margin-left: 15%;
+    margin-top: 7%;
+    justify-content:center;}
+
+/*-------------------------------------------------------------------ALEJANDRA LEMUS -----------------------------------------------------------------------------------------*/
+.container8 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  max-width: 1200px;
+  margin: 20px auto;
+  background-color: transparent; /* Fashionable color */
+  padding: 20px; /* Add some padding for better aesthetics */
+}
+
+.container-cards8 {
+  box-sizing: border-box;
+  width: 23%;
+  margin: 10px;
+  background-color: transparent;
+  text-align: center;
+
+}
+
+.card8 img {
+  max-width:100%;
+  height: 140px;
+  border-radius: 10px; /* Adjust the value to control the roundness */
+  width: 150px;
+
+}
+
+.card8-info {
+  text-align: center;
+}
+
+.card8-info h2 {
+  margin: 10px 0;
+  font-size: 1.5em;
+
+}
+
+.card8-info p {
+  font-size: 1em;
+  font-size: x-large;
+}
+
+
