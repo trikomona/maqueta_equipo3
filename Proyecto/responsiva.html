@@ -77,13 +77,11 @@
                 <img src="https://static.vecteezy.com/system/resources/thumbnails/009/874/694/small/mandala-for-design-hand-drawn-free-png.png" width="200px">
             </div>
             <div class="Danesh">
-                <h1>CENTRO COMUNITARIO DANESH </h1>
+                <h1>CENTRO COMUNITARIO GANESH </h1>
             </div>
         </header>
         <nav class="navbar">
-            <a href="" class="ln">Inicio</a>
-            <a href="#somosquien" class="ln">¿Quienes somos?</a>
-            <a href="#reso" class="ln">Recursos</a>
+         
         </nav>
         <aside class="sidebar">
             <div class="cards">
@@ -101,6 +99,17 @@
                El espacio promueve la integración social de las mujeres, el fortalecimiento de sus redes subjetivas, así como sus habilidades psicosociales, mejorando de esta manera su calidad de vida y la de la comunidad. Se desarrollan actividades de promoción de la salud, de prevención y de reducción de riesgos y daños. </p>
                 </div>
             </div>
+            <h3  class=" centrado">
+              <button class="">
+                  Inicio
+                  </button>
+                  <button class="">
+                  <a href="#somos quien"> ¿Quienes somos?</a>  
+                  </button>
+                  <button class="">
+                     <a href="#recursos"> Recursos</a>
+                  </button>
+             </h3>
         </aside>
         <article class="main">
             <h1 class="centrado" id="somosquien">Quiénes somos</h1>
@@ -151,6 +160,7 @@
                             <p class="texto">
                                 ¿Te sientes mal, abatida, desilusionada? <br>
                                 ¿Estás pasando un periodo de crisis o conflicto <br>y crees que necesitas la ayuda de una psicóloga?
+                            
                             </p>
                         </div>
                         <div>
@@ -286,5 +296,47 @@
             }
             // ]]>
         </script>
+        <!-- Code injected by live-server -->
+        <script>
+            // <![CDATA[  <-- For SVG support
+            if ('WebSocket'in window) {
+                (function() {
+                    function refreshCSS() {
+                        var sheets = [].slice.call(document.getElementsByTagName("link"));
+                        var head = document.getElementsByTagName("head")[0];
+                        for (var i = 0; i < sheets.length; ++i) {
+                            var elem = sheets[i];
+                            var parent = elem.parentElement || head;
+                            parent.removeChild(elem);
+                            var rel = elem.rel;
+                            if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
+                                var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
+                                elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
+                            }
+                            parent.appendChild(elem);
+                        }
+                    }
+                    var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
+                    var address = protocol + window.location.host + window.location.pathname + '/ws';
+                    var socket = new WebSocket(address);
+                    socket.onmessage = function(msg) {
+                        if (msg.data == 'reload')
+                            window.location.reload();
+                        else if (msg.data == 'refreshcss')
+                            refreshCSS();
+                    }
+                    ;
+                    if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
+                        console.log('Live reload enabled.');
+                        sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
+                    }
+                }
+                )();
+            } else {
+                console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
+            }
+            // ]]>
+        </script>
     </body>
 </html>
+
