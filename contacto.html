@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+    <title> Contacto </title>
+
+    <style>
+        body{
+           background-image: url(https://images.unsplash.com/photo-1591625677777-ae053aef58ff?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8bnViZXMlMjBtb3JhZGFzfGVufDB8fDB8fHww&w=1000&q=80);
+           background-position: center center;
+           background-repeat: no-repeat;
+           background-attachment: fixed;
+           background-size: cover;
+
+        }
+
+        .form{
+                border-radius: 40px;
+                text-align: center;
+                font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;                padding: 40px;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;   
+                            
+        
+            }
+        .form p{
+                text-align: center;
+                color: rgb(64, 125, 129);
+                font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+                font-weight: bold;
+                text-shadow: 2px 2px 2px rgba(145, 110, 154, 0.4);
+                 }
+
+            .card9 h3{
+                width: 250px;
+                height: 20px;
+                font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+                background-color: rgb(64, 125, 129); /Color de fondo de la caja/
+                padding: 15px; /Espacio interno para contenido/
+                text-align: center; /Para ubicar el contenido/
+                border-radius: 25px;
+                box-shadow: 5px 5px 5px rgb(64, 125, 129);
+                color: rgb(255, 255, 255);
+                font-weight: bold;
+                display: flex;
+                justify-content: center;
+                gap: 20px;
+
+            }
+             .card9 h4{
+               background-color:white;
+               color: rgb(64, 125, 129);
+               width: 250px;
+               height: 80px;
+               padding: 15px;
+               background-color: white;
+               text-align: center;
+               border-radius: 30px;
+               margin: 15px;
+               font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+               border: 1px solid rgb(64, 125, 129);
+               font-weight: lighter;
+               align-self: auto;
+               box-shadow: 5px 5px 5px rgb(64, 125, 129);
+               display: flex;
+               justify-content: center;
+               gap: 20px
+
+
+
+                
+                
+
+            }
+            #nombre{
+                width: 60%;
+                height: 35px;
+                border-radius: 20px;
+                padding: 0 10px;
+                border: 2px solid rgb(64, 125, 129);
+                background-color: rgb(255, 226, 239);
+                color: rgb(64, 125, 129);
+                font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+            }
+            #edad{
+                width: 60%;
+                height: 35px;
+                border-radius: 20px;
+                padding: 0 10px;
+                border: 2px solid rgb(64, 125, 129);
+                background-color: rgb(255, 226, 239);
+                color: rgb(64, 125, 129);
+                font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+              
+            }
+            #location{
+                width: 60%;
+                height: 35px;
+                border-radius: 20px;
+                padding: 0 10px;
+                border: 2px solid rgb(64, 125, 129);
+                background-color: rgb(255, 226, 239);
+                color: rgb(64, 125, 129);
+                font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+                
+            }
+            #email{
+                width: 60%;
+                height: 35px;
+                border-radius: 20px;
+                padding: 0 10px;
+                border: 2px solid rgb(64, 125, 129);
+                background-color: rgb(255, 226, 239);
+                color: rgb(64, 125, 129);
+                font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+            }
+          #button{
+             text-decoration: none;
+             color: #fff;
+             font-weight: bold;
+             padding: 12px 20px;
+             font-size: 18px;
+             border-radius: 10px;
+             background-color: #cba6d9;
+             box-shadow: 0 5px 5px #8d7296, 0 9px 0 #8d7296, 0px 9px 10px rgba(145, 110, 154, 0.4), 
+             inset 0px 2px 9px rgba(255,255,255,0.2), inset 0 -2px 9px rgba(0,0,0,0.2);
+             position: relative;
+             border-bottom: 1px solid rgba(255,255,255,0.2);
+             display: inline-block;
+             border: none;
+             font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; text-shadow: 0px -1px 0px rgba(0,0,0,0.2);
+             cursor: pointer;
+            }
+
+           #button:hover{
+            background: #8d6f99;
+           color: #fff;
+            }
+
+           .container9{
+            display: flex;
+            flex-direction: row;
+            gap: 50px;
+            margin: 30px;
+           
+           }
+  
+            </style>
+
+          <div=cont
+            <body>
+             <div class="container9">      
+
+                <div class="form">
+      
+                <form>
+                        <p>Necesito acompañamiento psicológico</p>
+                    
+                    <input type="text" id="nombre" name="nombre" placeholder="Nombre" required> <br><br>
+            
+                    
+                    <input type="text" id="edad" name="edad" placeholder="Edad"> <br><br>
+            
+                    
+                    <input type="text" id="location" name="location" placeholder="Lugar de residencia"> <br><br>
+                    
+                
+                    <input type="email" id="email" name="email" placeholder="E-mail"> <br><br>
+            
+                    <input type="button" id="button" value="Enviar" <!-- Botón de enviar-->
+
+            
+                 </form>
+            </div>
+            </body>
+
+            <body>
+                <div class="container9">  
+                <div class="card9">
+                   <h3>¡Gracias por contactarnos!</h3>
+                   <h4>En breve nuestro equipo
+                    de terapeutas se pondrá
+                    en contacto contigo.</h4>
+                </div>
+            </body>
+            
+      
+    
+
+</body>
+</html>
